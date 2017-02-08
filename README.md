@@ -10,7 +10,7 @@ If you need to perform transformations on the incoming data you wish to score, u
 
 ##What's new
 
-This is the initial release of the model-scoring-java repo.
+This is the initial release of the `model-scoring-java` repo.
 
 ##Known issues
 
