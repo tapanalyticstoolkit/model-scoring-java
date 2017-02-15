@@ -1,8 +1,8 @@
 #model-scoring-java
 
-This repo contains the Model Scoring Engine that supports Spark-tk and daal-tk models. 
+This repo contains the JVM-based Model Scoring Engine that supports Spark-tk and daal-tk models. 
 
-The Scoring Engine is a REST server capable of loading trained machine learning models exported by Spark-tk or daal-tk in MAR (Model ARchive) format and using the models to score streams of incoming data. These models implement Model ARchive Interface defined in the ModelArchiver repository at: https://github.com/tapanalyticstoolkit/modelarchiver. Applications can use the Scoring Engine RESTful API to get predictions produced by a model.
+The Scoring Engine is application capable of loading trained machine learning models exported by Spark-tk or daal-tk in MAR (Model ARchive) format and using the models to score streams of incoming data. These models implement Model ARchive Interface defined in the ModelArchiver repository at: https://github.com/tapanalyticstoolkit/modelarchiver. Applications can use the Scoring Engine API to get predictions produced by a model.
 
 ##scoring-pipelines vs. scoring-engine
 
