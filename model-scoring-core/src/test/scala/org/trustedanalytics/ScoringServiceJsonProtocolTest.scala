@@ -17,6 +17,7 @@ package org.trustedanalytics
 
 import org.trustedanalytics.scoring.{DataOutputFormatJsonProtocol, ScoringServiceJsonProtocol}
 import org.scalatest.{Matchers, WordSpec}
+import org.trustedanalytics.scoring.ScoringServiceJsonProtocol.DataTypeJsonFormat
 import spray.json._
 import org.trustedanalytics.scoring.interfaces.{Field, Model, ModelMetaData}
 
@@ -43,7 +44,7 @@ class ScoringServiceJsonProtocolTest extends WordSpec with Matchers {
 
   import jsonFormat.DataInputFormat
   import jsonFormat.DataOutputFormat
-  import jsonFormat.DataTypeJsonFormat
+  import ScoringServiceJsonProtocol._
 
   "DataInputFormat" should {
     "parse JSON input" in {

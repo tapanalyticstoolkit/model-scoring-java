@@ -56,12 +56,10 @@ class ScoringServiceApplication {
    * load the model saved at the given path
    * @return Model running inside the scoring engine instance
    */
-  private def getModel(): Model = {
+  private def getModel: Model = {
     val marFilePath = config.getString("trustedanalytics.scoring-engine.archive-mar")
     ScoringEngineHelper.getModel(marFilePath)
   }
-
-
 
   /**
    * We need an ActorSystem to host our application in and to bind it to an HTTP port
@@ -84,7 +82,5 @@ class ScoringServiceApplication {
         t.printStackTrace()
       }
   }
-
-
 }
 
