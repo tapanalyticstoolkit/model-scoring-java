@@ -1,4 +1,7 @@
-#model-scoring-java
+# EOL Notice
+model-scoring-java, version v0.74 will no longer be available after Jan 15, 2022 and will not be supported with any additional functional, security, or other updates. All versions are provided as is. Intel recommends that users of daal-tk uninstall and discontinue use as soon as possible.
+
+# model-scoring-java
 
 This repo contains the JVM-based Model Scoring Engine that supports Spark-tk and daal-tk models. 
 
